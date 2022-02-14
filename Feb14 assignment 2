@@ -1,0 +1,14 @@
+#sum of the given digits
+def sum(n):
+   sum=0
+   while(n!=0):
+      sum=sum+(n%10)
+      n=n//10
+   return sum
+n=int(input('enter number:'))
+print('sum of digits',sum(n))
+
+
+Output:
+Enter number:1234
+Sum of digits 10
